@@ -1,1 +1,1 @@
-# vanillajs-quiz-app
+# VanillaJS Quiz App
