@@ -1,4 +1,4 @@
-/* Basic Resets */
+/* BASIC RESETS */
 * {
     margin: 0;
     padding: 0;
@@ -24,3 +24,51 @@ body {
     overflow: hidden;
     position: relative;
 }
+
+/* SCREENS */
+
+.screen {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+.screen.active {
+    display: block;
+}
+
+
+/* BUTTONS */
+
+button {
+    background-color: #e86a33;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d45b28;
+}
+
+
+/* START SCREEN */
+
+
+#start-screen h1 {
+    text-align: center;
+    color: #e86a33;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#start-screen p {
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 1rem;
+}
+
